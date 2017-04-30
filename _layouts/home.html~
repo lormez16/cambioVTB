@@ -1,0 +1,35 @@
+---
+layout: page
+---
+
+ 
+<br>
+<br>
+<br>
+
+
+<center>  
+<p>Escucha el último episodio del podcast.</p>
+{% assign latest_post = site.posts.first %}
+
+{{ latest_post.variable }}
+<br>
+<br>
+<span class="post-meta">{{ latest_post.date | date: "%b %-d, %Y" }}</span>
+<h2>{{ latest_post.title | escape }}</h2>
+<br>
+<br>
+<audio controls>
+  <source src="{{ latest_post.podcast_link }}" type="audio/mp3">
+
+</audio>
+
+<p>&#187; <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Leer post</a></p>
+</center>
+<br>
+<br>
+
+
+
+
+
