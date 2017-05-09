@@ -10,6 +10,7 @@ podcast_link: https://archive.org/download/03FuncionamientoDelHabito/03%20Funcio
 comment: true
 ---
 
+  
 
 Seguramente te ha pasado que has intentado crear algún hábito nuevo o cambiar alguno que tengas y a pesar de estar muy motivado al final no lo consigues. A mi me ha pasado bastantes veces a lo largo de los años y no entendía porqué. Esto me llevó a investigar y profundizar sobre este tema. 
 
@@ -17,13 +18,24 @@ En cuanto empiezas a buscar un poco, mas pronto que tarde llegas al libro **El p
 
 Este libro me ha ayudado a comprender el funcionamiento del hábito. Y conocer las partes que influyen en el mismo para poder crear y modificar hábitos de forma correcta.
 
+<br>
 
-  <iframe src="https://archive.org/embed/03FuncionamientoDelHabito" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
- 
- [Descarga][mp3]
+<audio controls>
+  <source src="{{ page.podcast_link }}" type="audio/mp3">
+
+</audio>
+
+
+[Descarga][mp3]
+
+
+<br>
 
 <br/>
 
+___
+
+<br>
 Comenta los episodios y comparte tus experiencias en el grupo de [Vacía Tu Bandeja][Telegram] en Telegram
 
 Si usas un Bullet Journal únete al grupo [Mi Bullet Journal] [BuJo] en Telegram.

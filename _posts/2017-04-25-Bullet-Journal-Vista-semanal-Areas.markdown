@@ -9,14 +9,23 @@ image: images/Logo2.jpg
 podcast_link: https://archive.org/download/05BuJoVistaSemanalAreas/05%20BuJo-Vista%20semanal-Areas.mp3
 comment: true
 ---
+
+
+
 La flexibilidad que te permite el Bullet Journal es tal que con el tiempo poco a poco lo vas adaptando a ti, a tu forma de trabajar. Es algo casi inevitable. En este episodio te vengo a hablar de como lo he adaptado yo y las modificaciones que he implementado sobre todo a nivel diario. Espero te sirva de ejemplo para tomar ideas a la hora de adaptar el tuyo.
 
 <br>
 
+ <audio controls>
+  <source src="{{ page.podcast_link }}" type="audio/mp3">
+</audio>
 
-    
+
+
 [Descarga][mp3]
- 
+
+
+<br>
 
 <br/>
 
@@ -43,7 +52,9 @@ La flexibilidad que te permite el Bullet Journal es tal que con el tiempo poco a
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 <br>
 <br>
+___
 
+<br>
 Si usas un Bullet Journal únete al grupo [Mi Bullet Journal] [BuJo] en Telegram.
 
 Comenta los episodios y comparte tus experiencias en el grupo de [Vacía Tu Bandeja][Telegram] en Telegram

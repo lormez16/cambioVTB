@@ -9,15 +9,10 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
-  
-  <audio controls>
-  <source src="https://archive.org/download/02ComoEmpezarASerOrganizado_201704/02-Como%20empezar%20a%20ser%20organizado.mp3"></source>
-  </audio>
     {{ content }}
   </div>
 
-  </article>
-  
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
+</article>
