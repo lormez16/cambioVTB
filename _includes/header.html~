@@ -3,8 +3,9 @@
  
   <div class="wrapper">
 		
-		<a class="site-title" href="{{ site.url }}" ><img src="/images/Nombre.png" style="max-width:200px;"alt="Vacía tu bandeja" />	
- 
+		
+       	        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+	  
       <nav class="site-nav">
     
       <span class="menu-icon">
@@ -16,7 +17,11 @@
         
       </span>
    
-		 
+		 <form action="/search.html" method="get">
+ 
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
       <div class="trigger">
       
         
@@ -30,11 +35,7 @@
       </div>
     
     
-    <form action="search.html" method="get">
- 
-  <input type="text" id="search-box" name="query">
-  <input type="submit" value="search">
-</form>
+    
     </nav>
  
   </div>
